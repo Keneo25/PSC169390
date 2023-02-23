@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1677168696 source:c:\users\keneo\onedrive\dokumenty\1_2_11\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
