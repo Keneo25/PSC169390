@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1677783725 source:c:\users\keneo\onedrive\pulpit\b\1.3.4\main.c
+	<stdio.h>
+	<stdlib.h>
+
