@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -11,9 +12,9 @@ int main()
      printf("Podaj k: ");
     scanf("%d",&k);
     int l = 0;
-    for(int i = 0; i <=k;i++){
+    for(int i = 0; i <k;i++){
             l += n;
-        if(l>=m && l<=k){
+        if(l>m && l<k){
             printf("%d \n",l);
         }
     }
