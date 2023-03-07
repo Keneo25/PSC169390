@@ -10,7 +10,7 @@ int main()
     scanf("%d",&liczba2);
     scanf("%d",&liczba3);
     double srednia = liczba1+liczba2+liczba3;
-    printf("Srenia: %f \n",srednia/3);
+    printf("Srenia: %.2f \n",srednia/3);
 
 
     return 0;
