@@ -9,8 +9,8 @@ int main()
     scanf("%d",&liczba1);
     scanf("%d",&liczba2);
     scanf("%d",&liczba3);
-
-    printf("Srenia: %d \n",(liczba1+liczba2+liczba3)/3);
+    double srednia = liczba1+liczba2+liczba3;
+    printf("Srenia: %f \n",srednia/3);
 
 
     return 0;
