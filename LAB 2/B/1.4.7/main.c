@@ -10,13 +10,18 @@ int main()
   printf("Podaj m: ");
  scanf("%d",&m);
  if(n <m){
-        int k = 0;
+        int k = 1;
+        int r;
     for(int i=0;i<=m;i++){
         if(i>=n && i<=m){
-        k += i * i;
+        k *= i ;
+        r = i;
         }
     }
-    printf("Wynik: %d",k);
+    for(int j=n;j<=m;j++){
+    printf("%d",j);
+    }
+    printf("= %d",k);
  }
  else{
     printf("Niewlasciwe wartosci");
